@@ -1,14 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import { ActivityIndicator, Image, ScrollView, StyleSheet, Text, View } from 'react-native';
+import FunctionalComponent from './components/FunctionalComponent';
+import AdditionButton from './components/AdditionButton';
+import SimpleCounter from './components/SimpleCounter';
 
-export default function App() {
+const App = () => {
   return (
     <ScrollView>
-      <Text>Apple:</Text>
+      <Text>Hello:</Text>
       <Text>(See below)</Text>
       <ActivityIndicator></ActivityIndicator>
-      <Image style={styles.tinyLogo}
-        source={{ uri: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Pink_lady_and_cross_section.jpg" }}></Image>
+      <FunctionalComponent buttonTitle={'One'} showButton={true} />
+      <AdditionButton buttonText='Add 5' amount={5} />
+      <SimpleCounter secondsBeforeIncrement={3} />
     </ScrollView >
   );
 }
@@ -25,3 +29,5 @@ const styles = StyleSheet.create({
     height: 500,
   }
 });
+
+export default App;
