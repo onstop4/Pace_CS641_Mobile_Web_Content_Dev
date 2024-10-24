@@ -1,0 +1,1 @@
+Assignment due on 10/17 for the CS 641 class at Pace University. Based on this YouTube video: https://www.youtube.com/watch?v=5a21F33T8xQ. Originally located [here](https://github.com/onstop4/Pace_CS641_Test_Auth_App).

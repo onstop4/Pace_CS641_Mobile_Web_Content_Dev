@@ -1,0 +1,3 @@
+Assignment due on 10/17 for the CS 641 class at Pace University. Based on the first five videos of this YouTube playlist: https://www.youtube.com/playlist?list=PLxt4i7QVE689u-NdsC2BHOP5sSv0cHG-q. Originally located [here](https://github.com/onstop4/Pace_CS641_Basic_List_App).
+
+I created this using the "blank" template instead of the "blank-typescript" template because I kept getting TypeScript errors when implementing the navigation.
